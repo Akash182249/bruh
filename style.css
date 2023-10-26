@@ -59,7 +59,7 @@ h3{
 }
 .hovering:hover{
     color:green;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
 }
 #articles{
     margin-bottom: 100px;
