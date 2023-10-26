@@ -1,5 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
 h1{
+    display: flex;
+    justify-content: center;
     font-family: 'Sometype Mono', monospace;
+
+}
+h1:hover{
+    color: rgb(38, 153, 38);
+}
+body{
+    background: #fff;
+    color: #444;
 }
 .carbon-calculator{
     display:flex;
@@ -20,17 +33,86 @@ li{
     margin-top:3rem;
 
 }
-.articles{
+.hovering{
+    color:#0a1ce3;
+}
+.hovering:visited{
+    text-decoration: none;
+    color:#0a1ce3;
+}
+.hovering:hover{
+    color:green;
+    font-size: 0.5rem;
+}
+#articles{
     margin-bottom: 100px;
+
 }
 h2{
     display: flex;
     font-family: 'Sometype Mono', monospace;
     margin: 4rem;
+    justify-content: center;
+    border: 2px solid;
+}
+h2:hover{
+    border: 2px solid blue;
 }
 p{
     font-family: 'Merriweather', serif;
     flex: 1;
     margin-left: 4rem;
 }
+.text-articles{
+    display:flex;
+    justify-content: center;
+    font-size: 1.25em;
+    color:black;
+}
+.text-articles:hover{
+    font-size:1.5em;
+    color: red;
+}
+.text-articles:visited{
+    
+    color:darkblue;
+}
+.video-player{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.video-player:focus{
+    outline: none;
+    border-color: #ca7474;
+    box-shadow: 0 0 10px #3e81b8;
+    
+}
+.sus-text{
+    display: flex;
+    justify-content: center;
+    margin-left: 4em;
+    margin-right:4em;
+}
+.bold-this{
+    font-weight:bold;
+    text-shadow: #0a1ce3;
+    
+}
+.bold-this:hover{
+    color:goldenrod;
+}
 
+#about-us{
+    display:flex;
+    justify-content: end;
+    margin: 2rem;
+    font-weight: bold;
+}
+.instagram{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
